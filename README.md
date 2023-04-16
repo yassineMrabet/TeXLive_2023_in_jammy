@@ -45,5 +45,5 @@ fmtutil-sys --all
 pdflatex small2e.tex
 ```
 
-**-> pdflatex.log**
+**-> pdflatex.log** (takes long time to exec)
 
