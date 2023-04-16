@@ -1,0 +1,748 @@
+
+$ pdflatex small2e.tex
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+
+kpathsea: Running mktexfmt pdflatex.fmt
+mktexfmt: mktexfmt is using the following fmtutil.cnf files (in precedence order):
+mktexfmt:   /mypartition/texlive2023/texmf-dist/web2c/fmtutil.cnf
+mktexfmt: mktexfmt is using the following fmtutil.cnf file for writing changes:
+mktexfmt:   /home/username/.texlive2023/texmf-config/web2c/fmtutil.cnf
+mktexfmt [INFO]: writing formats under /mypartition/texlive2023/texmf-var/web2c
+mktexfmt [INFO]: --- remaking pdflatex with pdftex
+mktexfmt: running `pdftex -ini   -jobname=pdflatex -progname=pdflatex -translate-file=cp227.tcx *pdflatex.ini' ...
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (INITEX)
+ restricted \write18 enabled.
+ (/mypartition/texlive2023/texmf-dist/web2c/cp227.tcx)
+entering extended mode
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/latexconfig/pdflatex.ini
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/tex-ini-files/pdftexconfig.tex)
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/latex.ltx
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/texsys.cfg)
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers, parameters,
+LaTeX2e <2022-11-01> patch level 1
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/l3kernel/expl3.ltx
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/l3kernel/expl3-code.tex)) hacks, document commands, control, par, spacing,
+files, font encodings, lengths,
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/fonttext.cfg
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/fonttext.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omlenc.def)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omsenc.def)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ot1enc.def)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/t1enc.def)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ts1enc.def)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ts1cmr.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/t1cmr.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ot1cmr.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ot1cmss.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ot1cmtt.fd)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/fontmath.cfg
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/fontmath.ltx
+=== Don't modify this file, use a .cfg file instead ===
+
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omlcmm.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omscmsy.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omxcmex.fd)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ucmr.fd)))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/preload.cfg
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/preload.ltx)) page nos., x-ref, environments, center, verbatim,
+math definitions, boxes, title, sectioning, contents, floats, footnotes,
+index, bibliography, output,
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/babel/hyphen.cfg
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/hyphen.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/dumyhyph.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/zerohyph.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/dehyph-exptl/dehypht-x-2023-03-06.tex
+dehyph-exptl: using an 8-bit TeX engine.
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/dehyph-exptl/dehypht-x-2023-03-06.pat
+German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2023-03-06 (W
+L)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/dehyph-exptl/dehyphn-x-2023-03-06.tex
+dehyph-exptl: using an 8-bit TeX engine.
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/dehyph-exptl/dehyphn-x-2023-03-06.pat
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2023-03-06
+ (WL)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-af.tex EC Afrikaans hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-af.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-grc.tex Hyphenation patterns for Ancient Greek
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/grahyph5.tex Hyphenation patterns for Ancient Greek))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/ibyhyph.tex Greek hyphenation patterns for Ibycus encoding, v3.0)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/zerohyph.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-hy.tex
+No Armenian hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-eu.tex EC Basque hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-eu.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-be.tex T2A Belarusian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-t2a.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-be.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-bg.tex T2A Bulgarian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-t2a.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-bg.tex
+Bulgarian hyphenation patterns (options: --safe-morphology --standalone-tex, ve
+rsion 21 October 2017)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ca.tex EC Catalan hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-ca.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-zh-latn-pinyin.tex
+EC Pinyin Hyphenation Patterns (with tone markers) 2018-11-25 (WL)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/ptex/hyph-zh-latn-pinyin.ec.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-cu.tex
+No Church Slavonic hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-cop.tex Coptic hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex-8bit/copthyph.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-hr.tex EC Croatian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-hr.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-cs.tex EC Czech hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-cs.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-da.tex EC Danish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-da.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-nl.tex EC Dutch hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-nl.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-en-gb.tex
+ASCII Hyphenation patterns for British English
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-en-gb.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-en-us.tex
+ASCII Hyphenation patterns for American English
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-en-us.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-eo.tex IL3 Esperanto hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-il3.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-eo.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-et.tex EC Estonian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-et.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-mul-ethi.tex
+No Pan-Ethiopic hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/zerohyph.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-fi.tex EC Finnish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-fi.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-fi-x-school.tex
+EC Finnish hyphenation patterns for school
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-fi-x-school.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-fr.tex EC French hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-fr.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-fur.tex EC Friulan hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-fur.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-gl.tex EC Galician hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-gl.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ka.tex T8M Georgian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-t8m.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-ka.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-de-1901.tex
+EC German hyphenation patterns (traditional orthography)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/dehyph/dehypht.tex
+German Traditional Hyphenation Patterns `dehypht' Version 3.2a <1999/03/03>
+(Formerly known under the name `ghyph31' and `ghyphen'.)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-de-1996.tex
+EC German hyphenation patterns (reformed orthography)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/dehyph/dehyphn.tex
+New German Hyphenation Patterns `dehyphn' Rev.31 <2001-05-07> (WaS)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-de-ch-1901.tex
+EC Swiss-German hyphenation patterns (traditional orthography)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-de-ch-1901.tex
+Swiss-German Hyphenation Patterns (Traditional Orthography) `dehyphts-x' 2021-0
+2-26 (WL)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-el-polyton.tex
+Hyphenation patterns for multi-accent (polytonic) Modern Greek
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/grphyph5.tex
+Hyphenation patterns for multi-accent (polytonic) Modern Greek))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-el-monoton.tex
+Hyphenation patterns for uni-accent (monotonic) Modern Greek
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyphen/grmhyph5.tex
+Hyphenation patterns for uni-accent (monotonic) Modern Greek))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-hu.tex EC Hungarian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-hu.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-is.tex EC Icelandic hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-is.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-as.tex
+No Assamese hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-bn.tex
+No Bengali hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-gu.tex
+No Gujarati hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-hi.tex
+No Hindi hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-kn.tex
+No Kannada hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ml.tex
+No Malayalam hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-mr.tex
+No Marathi hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-or.tex
+No Oriya hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-pi.tex
+No Pali hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-pa.tex
+No Panjabi hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ta.tex
+No Tamil hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-te.tex
+No Telugu hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-id.tex ASCII Indonesian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-id.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ia.tex
+ASCII Hyphenation patterns for Interlingua
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-ia.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ga.tex EC Irish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-ga.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-it.tex ASCII Italian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-it.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-kmr.tex EC Kurmanji hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-kmr.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-la-x-classic.tex
+EC Classical Latin hyphenation patterns, v.2.0 2019-07-03
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex-8bit/hyph-la-x-classic.ec.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-la.tex EC Latin hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-la.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-la-x-liturgic.tex
+EC Liturgical Latin hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/ptex/hyph-la-x-liturgic.ec.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-lv.tex L7X Latvian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-l7x.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-lv.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-lt.tex L7X Lithuanian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-l7x.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-lt.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-mk.tex
+MACEDONIAN Macedonian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex-8bit/hyph-mk.macedonian.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-mn-cyrl.tex
+T2A (New) Mongolian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-t2a.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-mn-cyrl.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-mn-cyrl-x-lmc.tex
+LMC Mongolian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-lmc.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-mn-cyrl-x-lmc.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-nb.tex EC Norwegian Bokmal hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-nb.tex
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-no.tex)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-nn.tex
+EC Norwegian Nynorsk hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-nn.tex
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-no.tex)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-oc.tex EC Occitan hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-oc.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-pms.tex ASCII Piedmontese hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-pms.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-pl.tex QX Polish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-qx.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-pl.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-pt.tex EC Portuguese hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-pt.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ro.tex EC Romanian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-ro.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-rm.tex ASCII Romansh hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-rm.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-ru.tex T2A Russian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/ruhyphen.tex
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/catkoi.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/koi2t2a.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/ruhyphal.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/cyryoal.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/hypht2.tex)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-sa.tex
+No Sanskrit hyphenation patterns - only for Unicode engines)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-sr-latn.tex
+EC Serbian hyphenation patterns in Latin script
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-sh-latn.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-sr-cyrl.tex
+T2A Serbian hyphenation patterns in Cyrillic script
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-t2a.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-sh-cyrl.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-sk.tex EC Slovak hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-sk.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-sl.tex EC Slovenian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-sl.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-es.tex EC Spanish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-es.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-sv.tex EC Swedish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-sv.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-th.tex LTH Thai hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-lth.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-th.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-tr.tex EC Turkish hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-tr.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-tk.tex EC Turkmen hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-tk.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-uk.tex T2A Ukrainian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ukrhyph/ukrhyph.tex Ukrainian hyphenation patterns in t2a encoding
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ukrhyph/catlcy.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ukrhyph/lcy2t2a.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ukrhyph/ukrhypmp.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/ruhyphen/hypht2.tex)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-hsb.tex EC Upper Sorbian hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-hsb.tex))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/loadhyph/loadhyph-cy.tex EC Welsh hyphenation patterns
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/conversions/conv-utf8-ec.tex)
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/hyph-utf8/patterns/tex/hyph-cy.tex)))
+(/mypartition/texlive2023/texmf-dist/tex/gener
+ic/pdftex/glyphtounicode.tex)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/utf8.def
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omsenc.dfu)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ot1enc.dfu)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/t1enc.dfu)
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/ts1enc.dfu))
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/firstaid/latex2e-first-aid-for-external-files.ltx)
+ ) )
+Beginning to dump on file pdflatex.fmt
+ (preloaded format=pdflatex 2023.4.16)
+23983 strings of total length 477192
+1848852 memory locations dumped; current usage is 204&351525
+20566 multiletter control sequences
+\font\nullfont=nullfont
+\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+\font\c_initex_cctab=cmr10 at 0.00005pt
+\font\c_other_cctab=cmr10 at 0.00006pt
+\font\c_str_cctab=cmr10 at 0.00008pt
+\font\g__regex_state_active_intarray=cmr10 at 0.00009pt
+\font\g__regex_thread_info_intarray=cmr10 at 0.0001pt
+\font\g__regex_submatch_prev_intarray=cmr10 at 0.00012pt
+\font\g__regex_submatch_begin_intarray=cmr10 at 0.00014pt
+\font\g__regex_submatch_end_intarray=cmr10 at 0.00015pt
+\font\g__regex_submatch_case_intarray=cmr10 at 0.00017pt
+\font\g__regex_balance_intarray=cmr10 at 0.00018pt
+\font\g__codepoint_uppercase_index_intarray=cmr10 at 0.0002pt
+\font\g__codepoint_lowercase_index_intarray=cmr10 at 0.00021pt
+\font\g__codepoint_uppercase_blocks_intarray=cmr10 at 0.00023pt
+\font\g__codepoint_lowercase_blocks_intarray=cmr10 at 0.00024pt
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+\font\c_code_cctab=cmr10 at 0.00026pt
+\font\c_document_cctab=cmr10 at 0.00027pt
+512280 words of font info for 32 preloaded fonts
+1141 hyphenation exceptions
+Hyphenation trie of length 428911 has 8835 ops out of 35111
+  143 for language 86
+  110 for language 85
+  138 for language 84
+  7 for language 83
+  12 for language 82
+  53 for language 81
+  127 for language 80
+  195 for language 79
+  71 for language 78
+  248 for language 77
+  62 for language 76
+  66 for language 75
+  119 for language 73
+  43 for language 72
+  58 for language 71
+  7 for language 70
+  194 for language 69
+  37 for language 68
+  23 for language 67
+  852 for language 66
+  852 for language 65
+  21 for language 64
+  38 for language 63
+  38 for language 62
+  77 for language 61
+  58 for language 60
+  206 for language 59
+  25 for language 58
+  216 for language 57
+  27 for language 56
+  37 for language 55
+  229 for language 54
+  38 for language 53
+  21 for language 52
+  147 for language 39
+  185 for language 38
+  18 for language 37
+  50 for language 36
+  420 for language 35
+  235 for language 34
+  207 for language 33
+  39 for language 32
+  76 for language 31
+  40 for language 30
+  89 for language 29
+  6 for language 28
+  31 for language 27
+  113 for language 24
+  145 for language 23
+  377 for language 22
+  224 for language 21
+  265 for language 20
+  60 for language 19
+  63 for language 18
+  19 for language 17
+  14 for language 16
+  3 for language 14
+  21 for language 13
+  54 for language 12
+  36 for language 11
+  5 for language 10
+  148 for language 7
+  97 for language 6
+  137 for language 5
+  440 for language 4
+  440 for language 3
+  2 for language 1
+  181 for language 0
+0 words of pdfTeX memory
+0 indirect objects
+No pages of output.
+Transcript written on pdflatex.log.
+mktexfmt [INFO]: log file copied to: /mypartition/texlive2023/texmf-var/web2c/pdftex/pdflatex.log
+mktexfmt [INFO]: /mypartition/texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt installed.
+mktexfmt [INFO]: disabled formats: 1
+mktexfmt [INFO]: successfully rebuilt formats: 1
+mktexfmt [INFO]: not selected formats: 53
+mktexfmt [INFO]: total formats: 55
+mktexfmt [INFO]: exiting with status 0
+entering extended mode
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/small2e.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/size10.clo))
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/l3backend/l3backend-pdftex.def)
+No file small2e.aux.
+
+(/mypartition/texlive2023/texmf-dist/tex/latex
+/base/omscmr.fd) [1
+
+pdfTeX warning: pdflatex (file pdftex.map): cannot open font map file
+] (./small2e.aux) ) </mypartition/texlive2023/
+texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/username/.texlive2
+023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/username/.texli
+ve2023/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.600pk> </mnt/6C249A68249A34D4
+/Users/username/Documents/texlive2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi60
+0/cmbx10.pk> </mypartition/texlive2023/texmf-d
+ist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </mnt/6C249A68249A34D4/Users/ne
+srine/Documents/texlive2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.p
+k> </home/username/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.720pk
+>
+
