@@ -18,17 +18,26 @@ Shell: Bash inxi: 3.3.13
 TeX Live 2023 Installed on :
 `/mypartition/`
 
-Contenets of 
+Contents of 
 ```bash
 /mypartition/texlive2023/install-tl.log
 /mypartition/texlive2023/texmf-dist/web2c/fmtutil.cnf
 ```
 
 The ouptus log of the following commands :
+
+**updmap.log :**
+
 ```bash
 mktexlsr
 tlmgr generate _fmtutil
 tlmgr generate _updmap
 updmap-sys
+```
+
+**Fmtutil-sys--all.log** (takes long time to exec)
+
+
+```bash
 fmtutil-sys --all
 ```
