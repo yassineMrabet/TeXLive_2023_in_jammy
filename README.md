@@ -26,8 +26,6 @@ Contents of
 
 The ouptus log of the following commands :
 
-**updmap.log :**
-
 ```bash
 mktexlsr
 tlmgr generate _fmtutil
@@ -35,9 +33,17 @@ tlmgr generate _updmap
 updmap-sys
 ```
 
-**Fmtutil-sys--all.log** (takes long time to exec)
-
+**-> updmap.log**
 
 ```bash
 fmtutil-sys --all
 ```
+
+**-> Fmtutil-sys--all.log** (takes long time to exec)
+
+```bash
+pdflatex small2e.tex
+```
+
+**-> pdflatex.log**
+
