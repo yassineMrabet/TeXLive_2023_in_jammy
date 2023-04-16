@@ -1,0 +1,86 @@
+$ mktexlsr
+
+mktexlsr: Updating /mypartition/texlive2023//texmf-config/ls-R... 
+mktexlsr: Updating /mypartition/texlive2023/texmf-dist/ls-R... 
+mktexlsr: Updating /mypartition/texlive2023//texmf-local/ls-R... 
+mktexlsr: Updating /mypartition/texlive2023//texmf-var/ls-R... 
+mktexlsr: Done.
+
+$tlmgr generate _fmtutil
+To make the newly-generated fmtutil.cnf take effect, run fmtutil-sys --all.
+
+$tlmgr generate _updmap
+To make the newly-generated updmap.cfg take effect, run updmap-sys.
+
+$updmap-sys
+
+updmap will read the following updmap.cfg files (in precedence order):
+  /mypartition/texlive2023/texmf-dist/web2c/updmap.cfg
+updmap may write changes to the following updmap.cfg file:
+  /mypartition/texlive2023//texmf-config/web2c/updmap.cfg
+dvips output dir: "/mypartition/texlive2023//texmf-var/fonts/map/dvips/updmap"
+pdftex output dir: "/mypartition/texlive2023//texmf-var/fonts/map/pdftex/updmap"
+dvipdfmx output dir: "/mypartition/texlive2023//texmf-var/fonts/map/dvipdfmx/updmap"
+
+updmap is creating new map files
+using the following configuration:
+  LW35 font names                  : URWkb (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  prefer outlines                  : true (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  texhash enabled                  : true
+  download standard fonts (dvips)  : true (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  download standard fonts (pdftex) : true (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  jaEmbed replacement string       : haranoaji (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  jaVariant replacement string     : -04 (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  scEmbed replacement string       : arphic (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  tcEmbed replacement string       : arphic (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  koEmbed replacement string       : baekmuk (/mypartition/texlive2023/texmf-dist/web2c/updmap.cfg)
+  create a mapfile for pxdvi       : false (default)
+
+Scanning for LW35 support files  [  3 files]
+Scanning for MixedMap entries    [ 46 files]
+Scanning for KanjiMap entries    [ 11 files]
+Scanning for Map entries         [326 files]
+
+Generating output for dvipdfmx...
+Generating output for ps2pk...
+Generating output for dvips...
+Generating output for pdftex...
+
+Files generated:
+  /mypartition/texlive2023//texmf-var/fonts/map/dvips/updmap:
+       15866 2023-04-16 03:04:42 builtin35.map
+       21339 2023-04-16 03:04:42 download35.map
+     4391204 2023-04-16 03:04:43 psfonts_pk.map
+     4652914 2023-04-16 03:04:43 psfonts_t1.map
+     4643608 2023-04-16 03:04:42 ps2pk.map
+          14 2023-04-16 03:04:44 psfonts.map -> psfonts_t1.map
+  /mypartition/texlive2023//texmf-var/fonts/map/pdftex/updmap:
+     4643615 2023-04-16 03:04:44 pdftex_dl14.map
+     4641950 2023-04-16 03:04:44 pdftex_ndl14.map
+          15 2023-04-16 03:04:44 pdftex.map -> pdftex_dl14.map
+  /mypartition/texlive2023//texmf-var/fonts/map/dvipdfmx/updmap:
+       11994 2023-04-16 03:04:42 kanjix.map
+
+WARNING: updmap has found mismatched files!
+
+The following files have been generated as listed above,
+but will not be found because overriding files exist, listed below.
+
+Perhaps you have run updmap-user in the past, but are running updmap-sys
+now.  Once you run updmap-user the first time, you have to keep using it,
+or else remove the personal configuration files it creates (the ones
+listed below).
+ builtin35.map: 
+ download35.map: 
+ kanjix.map: 
+ pdftex.map: 
+ pdftex_dl14.map: 
+ pdftex_ndl14.map: 
+ ps2pk.map: 
+ psfonts.map: 
+ psfonts_pk.map: 
+ psfonts_t1.map: 
+(Run updmap --help for full documentation of updmap.)
+
+Transcript written on: /mypartition/texlive2023//texmf-var/web2c/updmap.log
+updmap: updating ls-R files.
