@@ -1,49 +1,30 @@
-# texlive2023_outputs
+# Intalling TeX Live 2023 on Ubuntu 22.04.2 LTS (Jammy Jellyfish)/ Linux Mint Vera 21.1
 
-The outputs of Tex Live 2023 installtion on **Linux Mint 21.1 x86_64**
+Instructions :
 
-Installtion reference : 
+- Install TeX Live 2023 following the steps descibed in [TeX Live - Quick install for Unix](https://www.tug.org/texlive/quickinstall.html)
 
-[TeX Live - Quick install for Unix](https://www.tug.org/texlive/quickinstall.html)
-
-
-Host hardware specs :
-
-```bash
-CPU: dual core Intel Core i3-4030U (-MT MCP-)
-speed/min/max: 1896/800/1900 MHz Kernel: 5.15.0-69-generic x86_64 
-Mem: 4038.7/7853.7 MiB (51.4%) Storage: 465.76 GiB (77.6% used) Procs: 306
-Shell: Bash inxi: 3.3.13
-```
-TeX Live 2023 Installed on :
-`/mypartition/`
-
-Contents of 
-```bash
-/mypartition/texlive2023/install-tl.log
-/mypartition/texlive2023/texmf-dist/web2c/fmtutil.cnf
-```
-
-The ouptus log of the following commands :
+- When installtion is done, exceute the following commands (may take a while for some of them)
 
 ```bash
 mktexlsr
 tlmgr generate _fmtutil
+fmtutil-sys --all
 tlmgr generate _updmap
 updmap-sys
 ```
+- Add the Latex 2023 fonts path :
 
-**-> updmap.log**
+```html
+<dir>/path/to/texlive/2023/fonts/opentype</dir>
+<dir>/path/to/texlive/2023/fonts/truetype</dir>
+```
+to your fonts configuration file :
 
-```bash
-fmtutil-sys --all
+```html
+/etc/fonts/fonts.conf
 ```
 
-**-> Fmtutil-sys--all.log** (takes long time to exec)
+Finally update with : `fc-cache -f`, and all should work fine !
 
-```bash
-pdflatex small2e.tex
-```
-
-**-> pdflatex.log** (takes long time to exec)
 
